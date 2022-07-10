@@ -14,6 +14,7 @@ const mockUserData=[
          })
     })
 
+
     app.get('/users/:id',function(req,res){
 	console.log(req.params.id)
 	res.json({
